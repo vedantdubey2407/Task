@@ -1,0 +1,45 @@
+/* 2. Style header and nav bar */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* 4. Style main and article */
+main {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+article {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  margin-top: 0;
+}
