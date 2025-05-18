@@ -1,0 +1,21 @@
+body {
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.project-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer.footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
